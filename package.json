@@ -1,0 +1,35 @@
+{
+  "name": "ecommerce-app",
+  "version": "1.0.0",
+  "description": "An ecommerce application for designing and customizing digital greeting cards.",
+  "main": "backend/server.js",
+  "scripts": {
+    "start": "node backend/server.js",
+    "dev": "vite",
+    "build": "vite build",
+    "test": "echo \"No tests specified\" && exit 0"
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "mongoose": "^5.10.9",
+    "stripe": "^8.0.0",
+    "cors": "^2.8.5",
+    "dotenv": "^8.2.0"
+  },
+  "devDependencies": {
+    "vite": "^2.0.0",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "konva": "^8.3.5"
+  },
+  "keywords": [
+    "ecommerce",
+    "greeting cards",
+    "customization",
+    "react",
+    "node",
+    "stripe"
+  ],
+  "author": "Your Name",
+  "license": "MIT"
+}
